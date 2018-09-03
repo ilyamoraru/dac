@@ -1,0 +1,14 @@
+<svg width="88" height="86" viewBox="0 0 88 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.73343 86C2.6756 86 0 83.348 0 80.3172V5.68282C0 2.65198 2.6756 0 5.73343 0H79.8858C82.9437 0 85.6193 2.65198 85.6193 5.68282V80.3172C85.6193 83.348 82.9437 86 79.8858 86" transform="translate(1.38086)" fill="#B2B1B1"/>
+<path d="M17.9647 4.54618C11.849 7.19816 4.58675 5.68282 0 0" transform="translate(14.7578 18.5639)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M26.756 9.09248C17.2003 11.3656 7.26235 8.3348 0 0" transform="translate(6.35156 27.2773)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M31.725 9.85024C20.6403 11.7445 9.1735 8.3348 0 0" transform="translate(1 39.0222)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M31.725 7.19821C21.0225 9.09248 9.55572 6.81938 0 0" transform="translate(1.38086 56.0706)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M30.9605 6.44046C20.258 8.33473 9.55572 6.06167 0 0" transform="translate(1.38086 71.6036)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M0.382136 0C2.29328 3.78854 2.29337 7.95594 0 11.3656" transform="translate(66.3555 9.09259)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M1.91114 0C4.20452 5.68282 3.82229 12.1233 0 16.6696" transform="translate(73.2422 7.95585)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M3.05779 0C5.73339 7.57709 4.58675 15.912 0 21.9736" transform="translate(79.7402 7.57708)" stroke="white" stroke-width="0.653" stroke-linecap="round"/>
+<path d="M11.0846 0L10.3201 1.51539H3.82229L0 17.4273H3.82229L7.26233 6.81945V17.4273L1.91114 38.2643H7.64458L12.6135 19.7005L17.5826 38.2643H22.5515L19.1114 17.4273V6.81945L22.9337 17.4273H26.3738L22.5515 1.51539H16.4358L15.6714 0" transform="translate(48.7812 45.8435)" fill="white"/>
+<path d="M0 0L8.79122 7.57709H37.4584L46.632 0" transform="translate(17.8203 6.06405)" fill="white"/>
+<path d="M5.73343 11.3656C8.79127 11.3656 11.4669 8.71365 11.4669 5.68282C11.4669 2.65198 8.79127 0 5.73343 0C2.6756 0 0 2.65198 0 5.68282C0 8.71365 2.6756 11.3656 5.73343 11.3656Z" transform="translate(56.4238 35.2329)" fill="white"/>
+</svg>

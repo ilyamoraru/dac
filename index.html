@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DAC Authorized Distributor</title>
+        <link href="img/icons/Favicon1.ico" type="image/x-icon" rel="shortcut icon">
+        <link href="img/icons/Favicon2.ico" type="image/x-icon" rel="shortcut icon">
+        <link href="img/icons/Favicon1.ico" rel="apple-touch-icon" sizes="256x256">
+        <link href="img/icons/Favicon2.ico" rel="apple-touch-icon" sizes="32x32">
+        <link href="css/normalize.min.css" rel="stylesheet">
+        <link href="css/materialdesignicons.min.css" rel="stylesheet">
+        <link href="css/slick.min.css" rel="stylesheet">
+        <link href="css/style.min.css" rel="stylesheet">
+        <link href="css/circle.css" rel="stylesheet">
+        <script src="js/jQuery-3.3.1.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jQuery.scrollSpeed.js"></script>
+        <script src="js/circle-progress.min.js"></script>
+    </head>
+    <body>
+<!--        объявление сверху
+            ЕСТЬ ТОЛЬКО НА ГЛАВНОЙ-->
+        <div class="hidden-head-text">
+            <p class="hidden-text">Мы&nbsp;сформировали график работы в&nbsp;майские праздники, <a href="#">посмотреть</a> его</p>
+            <button type="button" class="close-hidden-text"></button>
+        </div>
+<!--        шапка
+            классы на главной и остальных стр отличаются-->
+        <header class="header">
+            <div class="header-top">
+<!--                бургер-->
+                <div class="desctop-hidden burger-menu">
+                    <button type="button" class="burger-icon burger-icon-close"></button>
+                </div>
+                <a href="index.html" class="header-logo">
+                    <img src="img/logo/head.svg" class="header-logo" alt="">
+                </a>
+<!--                навигация декстоп-->
+                <nav class="header-nav">
+                    <ul class="header-nav_list">
+                        <li class="header-nav_item">
+                            <p class="product-button">Оборудование</p>
+                        </li>
+                        <li class="header-nav_item">
+                            <a href="catalogs.html">Каталоги</a>
+                        </li>
+                        <li class="header-nav_item">
+                            <a href="support.html">Поддержка</a>
+                        </li>
+                        <li class="header-nav_item">
+                            <a href="buy.html">Купить</a>
+                        </li>
+                        <li class="header-nav_item">
+                            <a href="about.html">О компании</a>
+                        </li>
+                        <li class="header-nav_item mdi mdi-magnify form">
+
+                        </li>
+                    </ul>
+                </nav>
+<!--                форма поиска-->
+                <form class="header-search">
+                    <input type="text" name="search" class="search-field" placeholder="Поиск">
+                    <button type="submit" class="mdi mdi-magnify"></button>
+                    <button type="button" class="mdi mdi-window-close"></button>
+                </form>
+                <div class="header-contacts">
+                    <a href="tel:88123279323" class="header-tel">+7&nbsp;(812)&nbsp;327-93-23</a>
+                    <p class="header-adress">Московский пр.,&nbsp;д.212</p>
+                </div>
+                <div class="mdi mdi-magnify form desctop-hidden"></div>
+            </div>
+<!--            моб меню-->
+            <div class="header-menu desctop-hidden">
+                <ul class="mobile-menu">
+                    <li class="menu-item">
+                        <a href="equipment-mobile.html">Оборудование</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="catalogs.html">Каталоги</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="support.html">Поддержка</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="buy.html">Купить</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html">О компании</a>
+                    </li>
+                </ul>
+                <ul class="mobile-contacts">
+                    <li class="contact-item">
+                        <a href="tel:88123278323">+7&nbsp;(812)&nbsp;327-93-23</a>
+                    </li>
+                    <li class="contact-item">
+                        <p>Москвоский пр., д.212</p>
+                    </li>
+                </ul>
+            </div>
+<!--            оборудование дестоп версия иконки-->
+            <div class="header-bottom_icons">
+                <ul class="icons-list">
+                    <li class="icon-item this-desc">
+                        <img src="img/icons/equipment/1.svg" class="icon" alt="">
+                        <p class="icon-desc">Бытовые<br>сплит-системы</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/2.svg" class="icon" alt="">
+                        <p class="icon-desc">Полупоромышленные<br>конлиционеры</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/3.svg" class="icon" alt="">
+                        <p class="icon-desc">Системы VRF</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/4.svg" class="icon" alt="">
+                        <p class="icon-desc">Системы<br>чиллер-фанкойл</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/5.svg" class="icon" alt="">
+                        <p class="icon-desc">Вентиляция</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/6.svg" class="icon" alt="">
+                        <p class="icon-desc">Отопительное<br>оборудование</p>
+                    </li>
+                    <li class="icon-item">
+                        <img src="img/icons/equipment/7.svg" class="icon" alt="">
+                        <p class="icon-desc">Очиститель<br>воздуха</p>
+                    </li>
+                </ul>
+                <button type="button" class="close-products mdi mdi-window-close"></button>
+            </div>
+<!--            оборудование десктоп версия список товаров-->
+            <div class="header-bottom_products">
+                <div class="products-block">
+                    <img class="product-logo" src="img/brends/color/1.svg" alt="">
+                    <p class="product-name">Модели с&nbsp;инверторной технологией</p>
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item new-label">
+                            <a href="model-page.html">
+                                <img src="img/products/image2.png" class="product-img" alt="">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/image.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="products-block">
+                    <img class="product-logo" src="img/brends/color/2.svg" alt="">
+                    <p class="product-name">Модели со&nbsp;стандартной технологией</p>
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item new-label">
+                            <a href="model-page.html">
+                                <img src="img/products/image2.png" class="product-img" alt="">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/image.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item new-label">
+                            <a href="model-page.html">
+                                <img src="img/products/image2.png" class="product-img" alt="">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/image.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="products-block">
+                    <img class="product-logo" src="img/brends/color/2.svg" alt="">
+                    <p class="product-name">Модели со&nbsp;стандартной технологией</p>
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item new-label">
+                            <a href="model-page.html">
+                                <img src="img/products/image2.png" class="product-img" alt="">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/image.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/KPU95.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LW/S</p>
+                                    <p class="role">Мультисистема</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item new-label">
+                            <a href="model-page.html">
+                                <img src="img/products/image2.png" class="product-img" alt="">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="product-item">
+                            <a href="model-page.html">
+                                <img src="img/products/image.png" alt="" class="product-img">
+                                <div class="product-desc">
+                                    <p class="model">FTXG-LS</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+<!--        слайдер-->
+        <section class="index-block1">
+            <div class="index-slider1">
+                <div class="index-slider1_slide index-slide11">
+                    <img src="img/slider/index1/1.jpg" alt="">
+                </div>
+                <div class="index-slider1_slide index-slide12">
+                    <img src="img/slider/index1/1.jpg" alt="">
+                </div>
+                <div class="index-slider1_slide index-slide13">
+                    <img src="img/slider/index1/1.jpg" alt="">
+                </div>
+                <div class="index-slider1_slide index-slide14">
+                    <img src="img/slider/index1/1.jpg" alt="">
+                </div>
+                <div class="index-slider1_slide index-slide15">
+                    <img src="img/slider/index1/1.jpg" alt="">
+                </div>
+            </div>
+            <div class="index-block1-wrap">
+                <div class="pag-sliders-wrap">
+<!--                    столбики для слайдера-->
+                    <div class="pag-top">
+                        <div class="pag-item">
+                        </div>
+                        <div class="pag-item">
+                        </div>
+                        <div class="pag-item">
+                        </div>
+                        <div class="pag-item">
+                        </div>
+                        <div class="pag-item">
+                        </div>
+                    </div>
+<!--                    навигация слайдера-->
+                    <div class="index-sliderNav">
+                        <div class="sliderNav-item">
+                            01
+                        </div>
+                        <div class="sliderNav-item">
+                            02
+                        </div>
+                        <div class="sliderNav-item">
+                            03
+                        </div>
+                        <div class="sliderNav-item">
+                            04
+                        </div>
+                        <div class="sliderNav-item">
+                            05
+                        </div>
+                    </div>
+                </div>
+<!--                контент слайдер-->
+                <div class="index-slider2">
+                    <div class="index-slider2_slide index-slide21">
+                        <h2 class="slider2-title">Идеальный микроклимат&nbsp;&mdash; не&nbsp;только отопление и&nbsp;охлаждение</h2>
+                        <p class="slider2-text">Количество и&nbsp;качество воздуха в&nbsp;помещении важны не&nbsp;меньше, чем температура. Системы вентиляции, очистки воздуха DAIKIN заботятся об&nbsp;этих показателях и&nbsp;защищают вашу атмосферу от&nbsp;аллергенов: пыли, пыльцы, шерсти и&nbsp;даже табачного дыма.</p>
+                    </div>
+                    <div class="index-slider2_slide index-slide22">
+                        <h2 class="slider2-title">Идеальный микроклимат&nbsp;&mdash; не&nbsp;только отопление и&nbsp;охлаждение</h2>
+                        <p class="slider2-text">Количество и&nbsp;качество воздуха в&nbsp;помещении важны не&nbsp;меньше, чем температура. Системы вентиляции, очистки воздуха DAIKIN заботятся об&nbsp;этих показателях и&nbsp;защищают вашу атмосферу от&nbsp;аллергенов: пыли, пыльцы, шерсти и&nbsp;даже табачного дыма.</p>
+                    </div>
+                    <div class="index-slider2_slide index-slide23">
+                        <h2 class="slider2-title">Идеальный микроклимат&nbsp;&mdash; не&nbsp;только отопление и&nbsp;охлаждение</h2>
+                        <p class="slider2-text">Количество и&nbsp;качество воздуха в&nbsp;помещении важны не&nbsp;меньше, чем температура. Системы вентиляции, очистки воздуха DAIKIN заботятся об&nbsp;этих показателях и&nbsp;защищают вашу атмосферу от&nbsp;аллергенов: пыли, пыльцы, шерсти и&nbsp;даже табачного дыма.</p>
+                    </div>
+                    <div class="index-slider2_slide index-slide24">
+                        <h2 class="slider2-title">Идеальный микроклимат&nbsp;&mdash; не&nbsp;только отопление и&nbsp;охлаждение</h2>
+                        <p class="slider2-text">Количество и&nbsp;качество воздуха в&nbsp;помещении важны не&nbsp;меньше, чем температура. Системы вентиляции, очистки воздуха DAIKIN заботятся об&nbsp;этих показателях и&nbsp;защищают вашу атмосферу от&nbsp;аллергенов: пыли, пыльцы, шерсти и&nbsp;даже табачного дыма.</p>
+                    </div>
+                    <div class="index-slider2_slide index-slide25">
+                        <h2 class="slider2-title">Идеальный микроклимат&nbsp;&mdash; не&nbsp;только отопление и&nbsp;охлаждение</h2>
+                        <p class="slider2-text">Количество и&nbsp;качество воздуха в&nbsp;помещении важны не&nbsp;меньше, чем температура. Системы вентиляции, очистки воздуха DAIKIN заботятся об&nbsp;этих показателях и&nbsp;защищают вашу атмосферу от&nbsp;аллергенов: пыли, пыльцы, шерсти и&nbsp;даже табачного дыма.</p>
+                    </div>
+                </div>
+                <div class="progress-black">
+                    <div id="cicrle-black"></div>
+                </div>
+            </div>
+        </section>
+<!--        2 слайдер-->
+        <section class="index-block2">
+<!--            левые изобрежения-->
+            <div class="left-img-container">
+                <img src="img/slider/index2/1slide/bg1.png" alt="" class="slide1-left-img left-img this-opacity" data-slide="l1">
+                <img src="img/slider/index2/2slide/bg1.png" alt="" class="slide2-left-img left-img" data-slide="l2">
+                <img src="img/slider/index2/3slide/bg1.png" alt="" class="slide3-left-img left-img " data-slide="l3">
+            </div>
+<!--            правые изображения-->
+            <div class="right-img-container">
+                <img src="img/slider/index2/1slide/bg3.png" alt="" class="slide1-right-img right-img this-opacity" data-slide="r1">
+                <img src="img/slider/index2/2slide/bg3.png" alt="" class="slide2-right-img right-img" data-slide="r2">
+                <img src="img/slider/index2/3slide/bg3.png" alt="" class="slide3-right-img right-img" data-slide="r3">
+            </div>
+<!--            счетчик слайдера-->
+            <div class="counter-block3">01</div>
+<!--            сам слайдер-->
+            <div class="index-slider3">
+                <div class="index-slider3_slide index-slide31">
+                    <h2 class="index-slider3-title">18 лет</h2>
+                    <h3 class="index-slider3-subtitle">на российском<br>рынке</h3>
+                    <p class="index-slider3-text">Квалификация наших специалистов и&nbsp;широкий модельный ряд оборудования позволяют решить сложнейшие задачи в&nbsp;области кондиционирования и&nbsp;вентиляции и&nbsp;удовлетворить требования самого взыскательного клиента.</p>
+                </div>
+                <div class="index-slider3_slide index-slide32">
+                    <h2 class="index-slider3-title">3 500+</h2>
+                    <h3 class="index-slider3-subtitle">болee 3 500<br>моделей</h3>
+                    <p class="index-slider3-text">Модельный ряд климатического оборудования является одним из&nbsp;самых широких на&nbsp;климатическом рынке России.</p>
+                </div>
+                <div class="index-slider3_slide index-slide33">
+                    <h2 class="index-slider3-title">3 года</h2>
+                    <h3 class="index-slider3-subtitle">заводской гарантии</h3>
+                    <p class="index-slider3-text">Гарантии качества оборудования DAIKIN подтверждены всеми регламентирующими документами европейских климатических организаций и&nbsp;сертификатами РОСТЕСТа.</p>
+                </div>
+            </div>
+        </section>
+<!--        3 блок -->
+        <section class="index-block3">
+            <div class="index-block3_left">
+                <h2 class="page-subtitle">DAC&nbsp;&mdash; сертифицированный дистрибьютор кондиционеров DAIKIN в&nbsp;России</h2>
+                <p class="page-content">Мы&nbsp;закупаем климатическую технику на&nbsp;европейский заводах DAIKIN и&nbsp;формируем широкую сеть дилерских центров по России.&nbsp;Каждый дилер проходит обучение по&nbsp;продукции, установке&nbsp;и&nbsp;сервису.</p>
+            </div>
+            <div class="index-block3_right">
+                <a href="buy.html" class="map-button">Карта дилеров</a>
+            </div>
+        </section>
+<!--        4 блок-->
+        <section class="index-block4">
+            <div class="index-block4_slider">
+                <ul class="index-block4-list">
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/1.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item gold-item">
+                        <div class="block4-slider">
+                            <div class="block4-slide">
+                                <h3 class="block4-slider-title">Для офиса</h3>
+                                <h4 class="block4-slider-subtitle">Предлагаем комплексные решения для&nbsp;мироклимата в&nbsp;любом помещении</h4>
+                                <p class="page-content">Дилеры DAC помогут подобрать комплектацию систем климатконтроля для любого проекта: будь&nbsp;то строительство коттеджа, или переоснащение заводских коммуникаций</p>
+                            </div>
+                        </div>
+                        <div class="progress-gold">
+                            <div class="circle-gold"></div>
+                        </div>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            FTXS-K&nbsp;/ RXS-L 2006-QWG
+                        </h3>
+                        <img src="img/items/2.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/3.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="index-block4-list">
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/1.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item gold-item">
+    <!--                    слайдер-->
+                        <div class="block4-slider">
+                            <div class="block4-slide">
+                                <h3 class="block4-slider-title">Для дома</h3>
+                                <h4 class="block4-slider-subtitle">Предлагаем комплексные решения для микроклимата в&nbsp;любом помещении</h4>
+                                <p class="page-content">Дилеры DAC помогут подобрать комплектацию систем климатконтроля для любого проекта: будь&nbsp;то строительство коттеджа, или переоснащение заводских коммуникаций.</p>
+                            </div>
+                        </div>
+                        <div class="progress-gold">
+                            <div class="circle-gold"></div>
+                        </div>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            FTXS-K&nbsp;/ RXS-L 2006-QWG
+                        </h3>
+                        <img src="img/items/2.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/3.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="index-block4-list">
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/1.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item gold-item">
+    <!--                    слайдер-->
+                        <div class="block4-slider">
+                            <div class="block4-slide">
+                                <h3 class="block4-slider-title">Для производства</h3>
+                                <h4 class="block4-slider-subtitle">Предлагаем комплексные решения для микроклимата в&nbsp;любом помещении</h4>
+                                <p class="page-content">Дилеры DAC помогут подобрать комплектацию систем климатконтроля для любого проекта: будь&nbsp;то строительство коттеджа, или переоснащение заводских коммуникаций.</p>
+                            </div>
+                        </div>
+                        <div class="progress-gold">
+                            <div class="circle-gold"></div>
+                        </div>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            FTXS-K&nbsp;/ RXS-L 2006-QWG
+                        </h3>
+                        <img src="img/items/2.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                    <li class="block4-item">
+                        <a href="model-page.html">
+                        <h3 class="block4-title">
+                            <span>Бытовые сплит-системы</span>
+                            Daikin FTXG-LW/S
+                        </h3>
+                        <img src="img/items/3.png" alt="" class="block4-img">
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+<!--        слайдер производителей-->
+        <section class="index-block5">
+            <h2 class="page-subtitle">Бренды</h2>
+            <div class="index-page5-slider">
+                <div class="index-page5-slide">
+                    <a href="daikin.html">
+                        <img src="img/brends/1.svg" class="block5-img">
+                    </a>
+                </div>
+                <div class="index-page5-slide">
+                    <a href="#">
+                        <img src="img/brends/2.svg" class="block5-img">
+                    </a>
+                </div>
+                <div class="index-page5-slide">
+                    <a href="#">
+                        <img src="img/brends/3.svg" class="block5-img">
+                    </a>
+                </div>
+                <div class="index-page5-slide">
+                    <a href="#">
+                        <img src="img/brends/4.svg" class="block5-img">
+                    </a>
+                </div>
+                <div class="index-page5-slide">
+                    <a href="#">
+                        <img src="img/brends/1.svg" class="block5-img">
+                    </a>
+                </div>
+                <div class="index-page5-slide">
+                    <a href="#">
+                        <img src="img/brends/2.svg" class="block5-img">
+                    </a>
+                </div>
+            </div>
+        </section>
+<!--        подвал-->
+        <footer class="footer">
+<!--            слайдер подвала-->
+            <div class="footer-top">
+                <div class="footer-slide">
+                    <h3 class="footer-top_title">Название раздела меняется</h3>
+                    <div class="footer-slide_inner">
+                        <div class="footer-top_left">
+                            <a href="model-page_other.html">
+                                <h3 class="block4-title">
+                                    <span>Бытовые сплит-системы</span>
+                                    Daikin FTXG-LW/S
+                                </h3>
+                                <img src="img/items/1.png" alt="" class="block4-img">
+                            </a>
+                        </div>
+                        <div class="footer-top_right">
+                            <div class="footer-top_right_block">
+                                <a href="model-page_other.html">
+                                    <h3 class="block4-title">
+                                        <span>Бытовые сплит-системы</span>
+                                        Daikin FTXG-LW/S
+                                    </h3>
+                                    <img src="img/items/2.png" alt="" class="block4-img">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-slide">
+                    <h3 class="footer-top_title">Название раздела меняется</h3>
+                    <div class="footer-slide_inner">
+                        <div class="footer-top_left">
+                            <a href="model-page_other.html">
+                                <h3 class="block4-title">
+                                    <span>Бытовые сплит-системы</span>
+                                    Daikin FTXG-LW/S
+                                </h3>
+                                <img src="img/items/1.png" alt="" class="block4-img">
+                            </a>
+                        </div>
+                        <div class="footer-top_right">
+                            <div class="footer-top_right_block">
+                                <a href="model-page_other.html">
+                                    <h3 class="block4-title">
+                                        <span>Бытовые сплит-системы</span>
+                                        Daikin FTXG-LW/S
+                                    </h3>
+                                    <img src="img/items/2.png" alt="" class="block4-img">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-slide">
+                    <h3 class="footer-top_title">Название раздела меняется</h3>
+                    <div class="footer-slide_inner">
+                        <div class="footer-top_left">
+                            <a href="model-page_other.html">
+                                <h3 class="block4-title">
+                                    <span>Бытовые сплит-системы</span>
+                                    Daikin FTXG-LW/S
+                                </h3>
+                                <img src="img/items/1.png" alt="" class="block4-img">
+                            </a>
+                        </div>
+                        <div class="footer-top_right">
+                            <div class="footer-top_right_block">
+                                <a href="model-page_other.html">
+                                    <h3 class="block4-title">
+                                        <span>Бытовые сплит-системы</span>
+                                        Daikin FTXG-LW/S
+                                    </h3>
+                                    <img src="img/items/2.png" alt="" class="block4-img">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-slide">
+                    <h3 class="footer-top_title">Название раздела меняется</h3>
+                    <div class="footer-slide_inner">
+                        <div class="footer-top_left">
+                            <a href="model-page_other.html">
+                                <h3 class="block4-title">
+                                    <span>Бытовые сплит-системы</span>
+                                    Daikin FTXG-LW/S
+                                </h3>
+                                <img src="img/items/1.png" alt="" class="block4-img">
+                            </a>
+                        </div>
+                        <div class="footer-top_right">
+                            <div class="footer-top_right_block">
+                                <a href="model-page_other.html">
+                                    <h3 class="block4-title">
+                                        <span>Бытовые сплит-системы</span>
+                                        Daikin FTXG-LW/S
+                                    </h3>
+                                    <img src="img/items/2.png" alt="" class="block4-img">
+                                </a>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            контакты-->
+            <div class="footer-bottom">
+                <img src="img/logo/footer.svg" alt="" class="footer-logo">
+                <div class="copyright">
+                    <p>DAC Authorized Distributor</p>
+                    <p>
+                        &copy;&nbsp;2011&nbsp;&mdash; 
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </p>
+                </div>
+                <div class="politica">
+                    <p>Заполняя любую печатную форму на нашем сате, вы автоматически<br class="hidden"> принимаете условия <a href="#">Политики Конфиденциальности</a></p>
+                </div>
+                <div class="developer-cont">
+                    <a href="http://kdm1.ru" target="_blank">
+                        <img src="img/kdm.svg" alt="" class="kdm-img">
+                        <div class="developer-right">
+                            <p>Сайт&nbsp;разработан в&nbsp;агентстве</p>
+                            <span>&laquo;Клиника&nbsp;доброго маркетолога&raquo;</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    <script src="js/script.min.js"></script>
+    </body>
+</html>

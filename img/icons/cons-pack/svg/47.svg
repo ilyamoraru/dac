@@ -1,0 +1,14 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.90399 43.8461C1.3552 43.8461 0 42.4941 0 40.9488V2.89732C0 1.35208 1.3552 0 2.90399 0H40.4623C42.0111 0 43.3663 1.35208 43.3663 2.89732V40.9488C43.3663 42.4941 42.0111 43.8461 40.4623 43.8461" transform="translate(1.19531 0.314575)" fill="#B2B1B1"/>
+<path d="M9.09915 2.31782C6.00155 3.6699 2.3232 2.89732 0 0" transform="translate(7.96875 9.7793)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M13.552 4.6357C8.71198 5.79463 3.67839 4.2494 0 0" transform="translate(3.70898 14.2217)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M16.0687 5.02203C10.4544 5.98781 4.64639 4.2494 0 0" transform="translate(1 20.2096)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M16.0687 3.66993C10.648 4.6357 4.83999 3.47678 0 0" transform="translate(1.19531 28.9016)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M15.6815 3.28359C10.2607 4.24937 4.83999 3.09048 0 0" transform="translate(1.19531 36.8208)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M0.193552 0C1.16155 1.93155 1.1616 4.05625 0 5.79464" transform="translate(34.1035 4.95056)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M0.967998 0C2.1296 2.89732 1.936 6.18094 0 8.4988" transform="translate(37.5918 4.37109)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M1.54877 0C2.90397 3.86309 2.3232 8.11253 0 11.203" transform="translate(40.8848 4.17786)" stroke="white" stroke-width="1.29718" stroke-linecap="round"/>
+<path d="M5.61438 0L5.22716 0.772607H1.936L0 8.88513H1.936L3.67838 3.47682V8.88513L0.967998 19.5086H3.87199L6.38876 10.0441L8.9056 19.5086H11.4224L9.67998 8.88513V3.47682L11.616 8.88513H13.3584L11.4224 0.772607H8.32476L7.9376 0" transform="translate(25.2012 23.6875)" fill="white"/>
+<path d="M0 0L4.45277 3.86309H18.9727L23.6192 0" transform="translate(9.52148 3.40649)" fill="white"/>
+<path d="M2.90399 5.79464C4.45279 5.79464 5.80799 4.44256 5.80799 2.89732C5.80799 1.35208 4.45279 0 2.90399 0C1.3552 0 0 1.35208 0 2.89732C0 4.44256 1.3552 5.79464 2.90399 5.79464Z" transform="translate(29.0742 18.2777)" fill="white"/>
+</svg>
